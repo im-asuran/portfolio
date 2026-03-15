@@ -1,0 +1,34 @@
+.skill-item {
+  width: 100%;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.skill-name {
+  color: var(--color-text-body);
+  font-weight: 500;
+  font-size: 0.92rem;
+}
+
+.skill-level {
+  color: var(--color-text-subtle);
+  font-size: 0.8rem;
+}
+
+.skill-bar {
+  height: 6px;
+  background: var(--color-bg-primary-muted);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+  background: var(--gradient-primary-horizontal);
+  border-radius: 3px;
+  transition: width 1s ease;
+}

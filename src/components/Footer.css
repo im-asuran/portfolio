@@ -1,0 +1,17 @@
+﻿.footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid var(--color-border-primary-subtle);
+  color: var(--color-text-subtle);
+  font-size: 0.85rem;
+}
+
+.footer-name {
+  color: var(--color-primary-light);
+  font-weight: 500;
+}
+
+.footer-year {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+}
